@@ -1,0 +1,74 @@
+[
+  {
+    "id": "b1bd4206-38ff-43a8-a673-218d7f0bca33",
+    "data": [
+      {
+        "text": "dish",
+        "meta": "@dish",
+        "alias": "dish",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43879db9-963a-4a3c-bfbb-62dcdc0efbdb",
+    "data": [
+      {
+        "text": "what are the reviews of the ",
+        "userDefined": false
+      },
+      {
+        "text": "tacos",
+        "meta": "@dish",
+        "alias": "dish",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d6ed943-876b-44f0-96ab-6b7e13603175",
+    "data": [
+      {
+        "text": "what are the reviews of the ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@dish",
+        "alias": "dish",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b3d2989-fd20-42a0-8518-b0cf47fe17e9",
+    "data": [
+      {
+        "text": "what are the reviews of the ",
+        "userDefined": false
+      },
+      {
+        "text": "sushi",
+        "meta": "@dish",
+        "alias": "dish",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "2084ddc6-888a-4a83-80c8-8bb30111879a",
+  "parentId": "0b795b92-6117-4f87-8d28-98897edecb8e",
+  "rootParentId": "0b795b92-6117-4f87-8d28-98897edecb8e",
+  "name": "review - yes",
+  "auto": true,
+  "contexts": [
+    "review-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "review.review-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "five stars, except for a couple of internet trolls"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

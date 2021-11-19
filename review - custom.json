@@ -1,0 +1,61 @@
+{
+  "id": "f0a693bd-775f-40c4-8b47-51129f6f4445",
+  "parentId": "0b795b92-6117-4f87-8d28-98897edecb8e",
+  "rootParentId": "0b795b92-6117-4f87-8d28-98897edecb8e",
+  "name": "review - custom",
+  "auto": true,
+  "contexts": [
+    "review-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "review.review-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d1cb45c4-64da-4dff-be1e-664ed5ee5af1",
+          "name": "dish",
+          "required": false,
+          "dataType": "@dish",
+          "value": "$dish",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "from 10 minutes to half an hour"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

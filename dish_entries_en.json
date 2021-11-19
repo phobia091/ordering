@@ -1,0 +1,34 @@
+[
+  {
+    "value": "dish",
+    "synonyms": [
+      "dish",
+      "crème brulée pétillante au vin blanc et truffes belges",
+      "creme brulee dish"
+    ]
+  },
+  {
+    "value": "california spicy grande dish",
+    "synonyms": [
+      "california spicy grande dish",
+      "house special",
+      "california special"
+    ]
+  },
+  {
+    "value": "meat god pizza dish",
+    "synonyms": [
+      "meat god pizza dish",
+      "meat lover",
+      "meat pizza"
+    ]
+  },
+  {
+    "value": "casa especialidad en tacos dish",
+    "synonyms": [
+      "casa",
+      "tacos",
+      "tacos dish"
+    ]
+  }
+]

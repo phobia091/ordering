@@ -1,0 +1,60 @@
+{
+  "id": "0b795b92-6117-4f87-8d28-98897edecb8e",
+  "name": "review",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "review-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8bb50b30-dc92-4e63-82dd-749314ed5e89",
+          "name": "dish",
+          "required": true,
+          "dataType": "@dish",
+          "value": "$dish",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "which dish would you like the review of"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "all 5 stars"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
